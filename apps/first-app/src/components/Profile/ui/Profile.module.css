@@ -1,0 +1,93 @@
+.card {
+  padding: 1rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  border-radius: 1rem;
+
+  background-color: #F6F6F6;
+}
+
+.card__header {
+  padding: 0 0 1rem 0;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.status {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+  outline: 1px solid green;
+  outline-offset: 2px;
+}
+
+.offline {
+  background-color: red;
+  outline: 1px solid red;
+  outline-offset: 2px;
+}
+
+.card__section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.description {
+  padding: 0.5rem 0;
+}
+
+.accent {
+  font-weight: 600;
+}
+
+.role {
+  letter-spacing: 0.03rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.admin {
+  background-color: #E75A75;
+  color: #fff;
+}
+
+.editor {
+  background-color: #F0F1FE;
+  color: #1F2253;
+}
+
+.moderator {
+  background-color: #FFFBEF;
+  color: #1F2253;
+}
+
+.guest {
+  background-color: #F0FEF8;
+  color: #1F2253;
+}

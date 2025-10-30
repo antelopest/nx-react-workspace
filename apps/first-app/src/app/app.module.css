@@ -1,0 +1,14 @@
+.heading {
+  padding: 2rem;
+  color: #1D1F4F;
+}
+
+.users {
+  padding: 0 2rem 2rem 2rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

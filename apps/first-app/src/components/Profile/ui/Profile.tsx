@@ -28,7 +28,9 @@ function getUserStatusClass(status: Status) {
 }
 
 function toggleUserStatus(status: Status): Status {
-  return status === Status.Online ? Status.Offline : Status.Online;
+  let random: number = Math.floor(Math.random() * 2);
+
+  return status = random === 1 ? Status.Offline : Status.Online;
 }
 
 export function Profile({ user: initialUser }: ProfileProps) {
